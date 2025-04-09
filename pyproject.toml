@@ -1,0 +1,21 @@
+[project]
+name = "mini-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    {name = "henryzhuhr",email = "henry.zhuhr@icloud.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "baidusearch>=1.0.3",
+    "dashscope>=1.23.1",
+    "langchain-community>=0.3.21",
+    "langchain-ollama>=0.3.1",
+    "langgraph>=0.3.27",
+    "loguru>=0.7.3",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.cloud.tencent.com/pypi/simple/"
+default = true
